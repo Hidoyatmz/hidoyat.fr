@@ -15,7 +15,7 @@
 		<!-- Sidebar -->
 		<nav id="sidebar">
 			<div class="sidebar-header">
-				<h3>Hidoyatmz.fr</h3>
+				<h3>Hidoyat.fr</h3>
 			</div>
 			<ul class="list-unstyled components">
 				<img id="avatar" src="img/avatar.png">
@@ -38,7 +38,7 @@
 	<div id="homepage">
 		<div class="me">
 			<h1><i class="fas fa-cog mycog"></i> Mehdi <a>"Hidoyatmz"</a> Zaidi</h1>
-			<p>Je suis un passioné de développement et de jeux vidéos.<br>Ce site est un portfolio voué à me présenter, personellement ainsi que mes compétences.</p>
+			<p>Je suis un passioné de développement et de jeux vidéo.<br>Ce site est un portfolio voué à me présenter personellement ainsi que mes compétences.</p>
 			<i class="fas fa-arrow-down godown"></i>
 		</div>
 	</div>
@@ -48,7 +48,7 @@
 				<h1><i class="far fa-question-circle"></i> Qui suis-je</h1>
 				<hr>
 				<p>
-					Bonjour à tous, je m'appelle Mehdi (Hidoyat), j'ai 17 ans et je suis passioné de developpement depuis maintenant 7 ans. Que ce soit sur les jeux vidéos auxquels j'ai joué ou même le web, j'ai toujours aimé voir ce qui se passait derrière toutes ces choses, c'est donc ma curiosité qui m'a amené à developper ! Aujourd'hui au lycée en filière S, j'envisage mes études dans le developpement (web, applications, jeux...) en suivant un DUT Informatique.
+					Bonjour à tous, je m'appelle Mehdi, j'ai 18 ans et je suis passionné de développement depuis maintenant 9 ans. Que ce soit sur les jeux vidéo auxquels j'ai joué ou même le web, j'ai toujours aimé voir ce qui se passait derrière toutes ces choses, c'est donc ma curiosité qui m'a amené à développer ! <br> Aujourd'hui titulaire d'un bac S, j'envisage mes études dans le développement (web, applications, jeux...) en suivant un DUT Informatique.
 				</p>
 			</div>
 		</div>
@@ -62,7 +62,7 @@
 					<div class="purplediv-text">
 						<div data-aos="zoom-out" data-aos-duration="1000">
 							<p>
-								Durant ces 7 années de passions, j'ai appris certaines choses, je me concentre énormement sur le développement web bien que j'ai de bonne bases en Lua et quelques notions en C++ que j'ai du utiliser dans certains jeux vidéo.<br>Ci-contre ce sont les languages/framework que je maîtrise/utilise le plus. Bien que ça ne soit pas très représentatif, c'est mon auto-évaluation sur les langages concernés.
+								Durant ces 9 années de passions, j'ai appris certaines choses, je me concentre énormément sur le développement web bien que j'aie de bonne bases en Lua et quelques notions en C++ que j'ai du utiliser dans certains jeux vidéo.<br>Ci-contre ce sont les langages/framework que je maîtrise le plus. N'ayant aucun diplôme pour le moment, ce n'est que mon auto-évaluation.
 							</p>
 						</div>
 					</div>
@@ -79,8 +79,8 @@
 					<div data-aos="zoom-out" data-aos-duration="1100">
 						<div class="skillbar clearfix " data-percent="25%">
 							<div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
-							<div id="css" class="skillbar-bar" style="background: #3498db;width:80%;"></div>
-							<div class="skill-bar-percent">80%</div>
+							<div id="css" class="skillbar-bar" style="background: #3498db;width:85%;"></div>
+							<div class="skill-bar-percent">85%</div>
 						</div> <!-- End Skill Bar -->
 					</div>
 
@@ -100,6 +100,14 @@
 						</div> <!-- End Skill Bar -->
 					</div>
 
+					<div data-aos="zoom-out" data-aos-duration="1500">
+						<div class="skillbar clearfix " data-percent="75%">
+							<div class="skillbar-title" style="background: #124e8c;"><span>Lua</span></div>
+							<div id="laravel" class="skillbar-bar" style="background: #4288d0;width:75%;"></div>
+							<div class="skill-bar-percent">75%</div>
+						</div> <!-- End Skill Bar -->
+					</div>
+
 					<div data-aos="zoom-out" data-aos-duration="1300">
 						<div class="skillbar clearfix " data-percent="70%">
 							<div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
@@ -115,14 +123,6 @@
 							<div class="skill-bar-percent">50%</div>
 						</div> <!-- End Skill Bar -->
 					</div>
-
-					<div data-aos="zoom-out" data-aos-duration="1500">
-						<div class="skillbar clearfix " data-percent="70%">
-							<div class="skillbar-title" style="background: #124e8c;"><span>Laravel</span></div>
-							<div id="laravel" class="skillbar-bar" style="background: #4288d0;width:5%;"></div>
-							<div class="skill-bar-percent">5%</div>
-						</div> <!-- End Skill Bar -->
-					</div>
 				</div>
 			</div>
 		</div>
@@ -135,6 +135,16 @@
 			</div>
 			<div class="avtl">
 				<div data-aos="fade-up" data-aos-duration="1500">
+					<div class="ewrap left">
+						<div class="event">
+							<strong class="date">Année 2020</strong>
+							<p class="text">
+								Poursuite de mon apprentissage du développement web et réalisation en colaboration d'un autre développeur d'un mode de jeu Roleplay sur Garry's Mod. (NostaLife Roleplay)
+							</p>
+						</div>
+					</div>
+				</div>
+				<div data-aos="fade-up" data-aos-duration="1500">
 					<div class="ewrap right">
 						<div class="event">
 							<strong class="date">Année 2019</strong>
@@ -144,7 +154,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div data-aos="fade-up" data-aos-duration="1500">
 					<div class="ewrap left">
 						<div class="event">
