@@ -225,15 +225,15 @@
 						<div class="purplediv-text contacts">
 							<div class="mailcontact">
 								<span><i class="fas fa-envelope"></i> Email :</span>
-								<p id="email">hidoyatmz@gmail.com <button><i id="emailcopybutton" class="far fa-copy titleicon" onclick="copyemail()"></i></button></p>
+								<p id="email">hidoyatmz@gmail.com <button onclick="copyemail()"><i id="emailcopybutton" class="far fa-copy titleicon"></i></button></p>
 							</div>
 							<div class="phonecontact">
 								<span><i class="fas fa-phone-square"></i> Téléphone :</span>
-								<p>+33761599851 <button><i id="phonecopybutton" class="far fa-copy titleicon" onclick="copyphone()"></i></button></p>
+								<p>+33761599851 <button onclick="copyphone()"><i id="phonecopybutton" class="far fa-copy titleicon"></i></button></p>
 							</div>
 							<div class="discordcontact">
 								<span><i class="fab fa-discord"></i> Discord :</span>
-								<p>Hidoyatmz#1999 <button><i id="discordcopybutton" class="far fa-copy titleicon" onclick="copydiscord()"></i></button></p>
+								<p>Hidoyatmz#1999 <button onclick="copydiscord()"><i id="discordcopybutton" class="far fa-copy titleicon"></i></button></p>
 							</div>
 						</div>
 					</div>
