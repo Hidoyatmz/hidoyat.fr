@@ -37,39 +37,39 @@
 	<div class="background"></div>
 	<div id="homepage">
 		<div class="me">
-			<h1><i class="fas fa-cog mycog"></i> Mehdi <a>"Hidoyatmz"</a> Zaidi</h1>
-			<p>Je suis un passioné de développement et de jeux vidéo.<br>Ce site est un portfolio voué à me présenter personellement ainsi que mes compétences.</p>
+			<h1><i class="fas fa-cog mycog"></i> Mehdi <a>"Hido"</a> Zaidi</h1>
+			<p>Développeur d'applications web et mobile.<br>18 ans, étudiant à l'université de Lille.<br><br>L'atout pour votre identité numérique.</p>
 			<i class="fas fa-arrow-down godown"></i>
 		</div>
 	</div>
 	<div class="presentation" id="presentation">
 		<div class="container">
 			<div data-aos="flip-up" data-aos-duration="500">
-				<h1><i class="far fa-question-circle"></i> Qui suis-je</h1>
+				<h2><i class="fas fa-user"></i> Qui suis-je</h2>
 				<hr>
 				<p>
-					Bonjour à tous, je m'appelle Mehdi, j'ai 18 ans et je suis passionné de développement depuis maintenant 9 ans. Que ce soit sur les jeux vidéo auxquels j'ai joué ou même le web, j'ai toujours aimé voir ce qui se passait derrière toutes ces choses, c'est donc ma curiosité qui m'a amené à développer ! <br> Aujourd'hui titulaire d'un bac S, j'envisage mes études dans le développement (web, applications, jeux...) en suivant un DUT Informatique.
+					Étudiant & autodidacte passioné de développement informatique.<br>J'ai toujours aimé savoir ce qui se passait derrière toutes ces choses qui nous entourent, c'est donc ma curiosité qui m'a amenée à développer. Après 9 ans de passion, j'aimerais faire, du développement web, mon métier !
 				</p>
 			</div>
 		</div>
 	</div>
 	<div class="purplediv" id="purplediv">
 		<div class="container">
-			<h1><i class="fas fa-laptop-code titleicon"></i> Mes compétences</h1>
+			<h2><i class="fas fa-laptop-code titleicon"></i> Mes compétences</h2>
 			<hr>
 			<div class="row">
 				<div class="col-md-6">
 					<div class="purplediv-text">
 						<div data-aos="zoom-out" data-aos-duration="1000">
 							<p>
-								Durant ces 9 années de passions, j'ai appris certaines choses, je me concentre énormément sur le développement web bien que j'aie de bonne bases en Lua et quelques notions en C++ que j'ai du utiliser dans certains jeux vidéo.<br>Ci-contre ce sont les langages/framework que je maîtrise le plus. N'ayant aucun diplôme pour le moment, ce n'est que mon auto-évaluation.
+								Durant ces 9 années de passions, j'ai appris pas mal de choses, je me concentre énormément sur le développement web bien que j'ai de solides bases en Lua et quelques notions en C++.<br>Ci-contre, les langages/framework que je maîtrise le plus (selon mon auto-évaluation).
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div data-aos="zoom-out" data-aos-duration="1000">
-						<div class="skillbar clearfix " data-percent="20%">
+						<div class="skillbar clearfix ">
 							<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
 							<div id="html" class="skillbar-bar" style="background: #e67e22;width:95%;"></div>
 							<div class="skill-bar-percent">95%</div>
@@ -77,7 +77,7 @@
 					</div>
 
 					<div data-aos="zoom-out" data-aos-duration="1100">
-						<div class="skillbar clearfix " data-percent="25%">
+						<div class="skillbar clearfix ">
 							<div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
 							<div id="css" class="skillbar-bar" style="background: #3498db;width:85%;"></div>
 							<div class="skill-bar-percent">85%</div>
@@ -85,7 +85,7 @@
 					</div>
 
 					<div data-aos="zoom-out" data-aos-duration="1100">
-						<div class="skillbar clearfix " data-percent="25%">
+						<div class="skillbar clearfix ">
 							<div class="skillbar-title" style="background: #5c0091;"><span>Bootstrap</span></div>
 							<div id="css" class="skillbar-bar" style="background: #5c0091;width:80%;"></div>
 							<div class="skill-bar-percent">80%</div>
@@ -93,7 +93,7 @@
 					</div>
 
 					<div data-aos="zoom-out" data-aos-duration="1400">
-						<div class="skillbar clearfix " data-percent="80%">
+						<div class="skillbar clearfix ">
 							<div class="skillbar-title" style="background: #27ae60;"><span>MySQL</span></div>
 							<div id="mysql" class="skillbar-bar" style="background: #2ecc71;width:80%;"></div>
 							<div class="skill-bar-percent">80%</div>
@@ -101,15 +101,15 @@
 					</div>
 
 					<div data-aos="zoom-out" data-aos-duration="1500">
-						<div class="skillbar clearfix " data-percent="75%">
+						<div class="skillbar clearfix">
 							<div class="skillbar-title" style="background: #124e8c;"><span>Lua</span></div>
-							<div id="laravel" class="skillbar-bar" style="background: #4288d0;width:75%;"></div>
-							<div class="skill-bar-percent">75%</div>
+							<div id="laravel" class="skillbar-bar" style="background: #4288d0;width:80%;"></div>
+							<div class="skill-bar-percent">80%</div>
 						</div> <!-- End Skill Bar -->
 					</div>
 
 					<div data-aos="zoom-out" data-aos-duration="1300">
-						<div class="skillbar clearfix " data-percent="70%">
+						<div class="skillbar clearfix">
 							<div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
 							<div id="php" class="skillbar-bar" style="background: #5a68a5;width:70%;"></div>
 							<div class="skill-bar-percent">70%</div>
@@ -117,7 +117,7 @@
 					</div>
 
 					<div data-aos="zoom-out" data-aos-duration="1200">
-						<div class="skillbar clearfix " data-percent="50%">
+						<div class="skillbar clearfix ">
 							<div class="skillbar-title" style="background: #2c3e50;"><span>Javascript</span></div>
 							<div id="js" class="skillbar-bar" style="background: #2c3e50;width:50%;"></div>
 							<div class="skill-bar-percent">50%</div>
@@ -129,17 +129,27 @@
 	</div>
 	<div class="presentation" id="projets">
 		<div class="container-fluid">
-			<h1><i class="fas fa-briefcase"></i> Mon éxperience</h1>
+			<h2><i class="fas fa-briefcase"></i> Mon éxperience</h2>
 			<div class="container"> 
 				<hr>  
 			</div>
 			<div class="avtl">
 				<div data-aos="fade-up" data-aos-duration="1500">
+					<div class="ewrap right">
+						<div class="event">
+							<strong class="date">Année 2021</strong>
+							<p class="text">
+								Ca ne fait que commencer.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div data-aos="fade-up" data-aos-duration="1500">
 					<div class="ewrap left">
 						<div class="event">
 							<strong class="date">Année 2020</strong>
 							<p class="text">
-								Poursuite de mon apprentissage du développement web et réalisation en colaboration d'un autre développeur d'un mode de jeu Roleplay sur Garry's Mod. (NostaLife Roleplay)
+								Obtention de mon bac S.<br>Poursuite de mon apprentissage du développement web et réalisation en colaboration d'un autre développeur d'un mode de jeu Roleplay sur Garry's Mod. (NostaLife Roleplay)
 							</p>
 						</div>
 					</div>
@@ -149,7 +159,7 @@
 						<div class="event">
 							<strong class="date">Année 2019</strong>
 							<p class="text">
-								Découverte du C++, acquisition de solides bases en Lua, débuts dans l'émulation du jeu "world of warcraft", prise en main de debian et apprentissage du javascript.
+								Découverte du C++, acquisition de solides bases en Lua, début dans l'émulation du jeu "world of warcraft", prise en main de debian et apprentissage du javascript.
 							</p>
 						</div>
 					</div>
@@ -159,7 +169,7 @@
 						<div class="event">
 							<strong class="date">Année 2018</strong>
 							<p class="text">
-								Poursuite de mon apprentissage dans le développement web (mysql/php) avec un stage de seconde chez <i><b>services nomades</b></i> en janvier et de l'entrainement sur des projets personnels.
+								Poursuite de mon apprentissage dans le développement web (mysql/php) avec un stage de seconde chez <i><b>services nomades</b></i> et de l'entrainement sur des projets personnels.
 							</p>
 						</div>
 					</div>
@@ -169,7 +179,7 @@
 						<div class="event">
 							<strong class="date">Année 2017</strong>
 							<p class="text">
-								Début dans le développement web, apprentissage du html/css et stage de troisième chez <i>services nomades</i> en janvier (une entreprise de développement web et applications ios et android).
+								Début dans le développement web, apprentissage du html/css et stage de troisième chez <i>services nomades</i> (une entreprise de développement web et d'applications ios & android).
 							</p>
 						</div>
 					</div>
@@ -202,7 +212,7 @@
 						<div class="event">
 							<strong class="date">Années 2012-2014</strong>
 							<p class="text">
-								Début du "codage" sur minecraft durant mon enfance, tentative de créer mes propres petits addons en partant de la base de scripts éxistant.
+								Début du "codage" sur minecraft durant mon enfance, tentative de créer mes propres petits addons en partant de la base de scripts existant.
 							</p>
 						</div>
 					</div>
@@ -217,7 +227,7 @@
 	-->
 	<div class="purplediv" id="contact">
 		<div class="container">
-			<h1><i class="fas fa-laptop-code titleicon"></i> Me contacter</h1>
+			<h2><i class="fab fa-telegram-plane titleicon"></i> Me contacter</h2>
 			<hr>
 			<div data-aos="fade-right" data-aos-duration="1500">
 				<div class="row">
@@ -229,7 +239,7 @@
 							</div>
 							<div class="phonecontact">
 								<span><i class="fas fa-phone-square"></i> Téléphone :</span>
-								<p>+33761599851 <button onclick="copyphone()"><i id="phonecopybutton" class="far fa-copy titleicon"></i></button></p>
+								<p>+337615998-- <button onclick="copyphone()"><i id="phonecopybutton" class="far fa-copy titleicon"></i></button></p>
 							</div>
 							<div class="discordcontact">
 								<span><i class="fab fa-discord"></i> Discord :</span>
@@ -274,7 +284,7 @@
 			}
 
 			function copyphone(self) {
-				var phone = "0761599851";
+				var phone = "07615998--";
 				var phoneinput = document.createElement("input");
 				  document.body.appendChild(phoneinput);
 				  phoneinput.setAttribute("id", "email_input");

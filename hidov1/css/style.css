@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+body {
+	scroll-behavior: smooth;
+}
+.navbar {
+	background: #6d93aa !important;
+	padding: 25px !important;
+	width: 100%;
+}
+
+.navbar-light {
+	background: #6d93aa !important;
+}
+
+.navbar-brand {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	font-size: 23px !important;
+	color: white !important;
+}
+
+.nav-link {
+	border-bottom: 5px solid #6d93aa;
+	color: white !important;
+  	margin-right: 5px !important;
+	margin-left: 20px !important;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	transition:1000ms ease;
+}
+
+.nav-link:hover {
+	border-bottom: 5px solid white;
+}
+
+.navbar-text {
+	color: white !important;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	transition:1000ms ease;
+}
+
+.contact-me {
+	background: none;
+	border: none;
+	overflow: none;
+	outline: none;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	transition:1000ms ease;
+}
+
+.contact-me:hover {
+	color: #fff11f !important;
+}
+
+.wallpaper {
+	height: 860px;
+	width: 100%;
+	background-image: url('https://www.sompom.com/wp-content/uploads/2016/07/sompom_ios.jpg');
+	background-size: cover;
+}
+
+.titleicon {
+	font-size: 32px !important;
+}
+
+.presentation {
+	padding: 70px;
+	background: #6d93aa !important;
+	color: white;
+	line-height: 1.9 !important;
+}
+
+.presentation h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.presentation p {
+	text-align: center;
+	font-size: 18px;
+}
+
+.presentation hr {
+	border-color: white !important;
+	opacity: 0.5;
+}
+
+.competences {
+	padding: 70px;
+	line-height: 1.9 !important;
+}
+
+.competences h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.competences hr {
+	border-color: black !important;
+	opacity: 0.5;
+}
+
+.competences .col-md-6 {
+	padding: 30px;
+}
+
+.competences .col-md-6 .competences-text {
+	position: relative;
+	padding: 0px 50px 0px 0px;
+	text-align: justify;
+}
+
+.competences .col-md-6 .competences-text:after {
+  content: " ";
+  position: absolute;
+  border-left: 1px #6c757d solid;
+  top: -10%;
+  right: 0;
+  height: 150%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media screen and (max-width: 800px) {
+  	.presentation {
+		padding: 20px;
+	}
+
+	.competences {
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+  	.competences .col-md-6 .competences-text:after {
+  		display: none;
+	}
+
+	.competences .col-md-6 .competences-text {
+		position: relative;
+		padding: 0px;
+	}
+}
+
+.progress {
+	margin-left: 50px;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:90px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	transition:1000ms ease;
+	height:35px;
+	width:200px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+.scroll-top {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #8daec2; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+/* [CONTAINER] */
+/* More accurate sizing */
+.avtl, div.ewrap, div.event {
+  box-sizing: border-box;
+}
+.avtl {
+  position: relative;
+  /* Width restriction if you want */
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* This will draw the vertical line */
+.avtl::before {
+  content: '';
+  width: 5px;
+  /*Red: DE421A;*/
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+}
+
+/* [EVENT WRAPPER] */
+div.ewrap {
+  padding: 10px 40px;
+  position: relative;
+  width: 70%;
+  left: 0; /* default to left */
+}
+div.right {
+  left: 50%;
+}
+
+div.left {
+  left: -20%;
+}
+
+
+/* [EVENT ITSELF] */
+div.event {
+  padding: 20px 30px;
+  background-color: #caf2f2;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* [THE DATE & TEST] */
+strong.date {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #333;
+}
+p.text {
+	color: black;
+  	margin: 0;
+  	text-align: left;
+}
+
+/* [ADD SPEECH BUBBLE TRIANGLE] */
+div.ewrap::before {
+  content: '';
+  border: 10px solid transparent;
+  border-left-color: #caf2f2;
+  border-right: 0;
+  position: absolute;
+  right: 30px;
+  top: 20%;
+}
+div.ewrap.right::before {
+  content: '';
+  border: 10px solid transparent;
+  border-right-color: #caf2f2;
+  border-left: 0;
+  position: absolute;
+  right: auto;
+  left: 30px;
+  top: 20%;
+}
+
+/* [ADD CIRCLE ON VERTICAL LINE] */
+div.ewrap::after {
+  content: '';
+  background: #fff;
+  border: 4px solid #DE421A;
+  width: 16px;
+  height: 16px;
+  border-radius: 20px;
+  position: absolute;
+  top: 20%;
+  right: -10px;
+}
+div.ewrap.right::after {
+  content: '';
+  background: #fff;
+  border: 4px solid #DE421A;
+  width: 16px;
+  height: 16px;
+  border-radius: 20px;
+  position: absolute;
+  top: 20%;
+  right: auto;
+  left: -5px;
+}
+
+@media screen and (max-width: 800px) {
+	/* This will draw the vertical line */
+	div.ewrap {
+	  width: 95%;
+	}
+
+	.avtl::before {
+	  left: 0%;
+	}
+
+	div.right {
+	  left: 0%;
+	}
+
+	div.left {
+	  left: 0%;
+	}
+
+  	/* [ADD SPEECH BUBBLE TRIANGLE] */
+	div.ewrap::before {
+	  content: '';
+	  border: 10px solid transparent;
+	  border-right-color: #caf2f2;
+	  border-left: 0;
+	  position: absolute;
+	  right: auto;
+	  left: 30px;
+	  top: 20%;
+	}
+	div.ewrap.right::before {
+	  content: '';
+	  border: 10px solid transparent;
+	  border-right-color: #caf2f2;
+	  border-left: 0;
+	  position: absolute;
+	  right: auto;
+	  left: 30px;
+	  top: 20%;
+	}
+
+	/* [ADD CIRCLE ON VERTICAL LINE] */
+	div.ewrap::after {
+	  	content: '';
+		background: #fff;
+		border: 4px solid #DE421A;
+		width: 16px;
+		height: 16px;
+		border-radius: 20px;
+		position: absolute;
+		top: 20%;
+		right: auto;
+		left: -6px;
+	}
+
+	div.ewrap.right::after {
+	  	content: '';
+		background: #fff;
+		border: 4px solid #DE421A;
+		width: 16px;
+		height: 16px;
+		border-radius: 20px;
+		position: absolute;
+		top: 20%;
+		right: auto;
+		left: -6px;
+	}
+}
+
+input {
+	width: 100%;
+	padding: 5px 10px;
+	border-radius: 4px;
+	border: 2px solid #b7b7b7;
+	-webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+input:invalid {
+	overflow: hidden;
+    outline: none;
+    box-shadow:none;
+}
+
+textarea:invalid {
+	overflow: hidden;
+    outline: none;
+    box-shadow:none;
+}
+
+input:focus {
+  background: #f7def7;
+}
+
+input:valid {
+  background-color: #ddffdd;
+}
+
+textarea {
+	width: 100%;
+	padding: 5px 10px;
+	color: black;
+	border-radius: 4px;
+	border: 2px solid #b7b7b7;
+	-webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+textarea:focus {
+	background-color: #f7def7;
+}
+
+input[type="submit"] {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	margin-top: 20px;
+	-webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+#labelmessage {
+	margin-top: 15px;
+}
+
+form:valid input[type="submit"] {
+  background-color: #ddffdd;
+  color: black;
+}
+
+form:invalid input[type="submit"] {
+  background-color: #f7def7;
+  color: black;
+}
+
+textarea:valid {
+  background-color: #ddffdd;
+  color: black;
+}
+
+.warning {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.contacts span {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.contacts p {
+	font-size: 18px;
+}
+
+.contacts .answertime {
+	font-size: 14px !important;
+}
+
+.footer {
+	font-size: 16px;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.card {
+	margin-top: 75px;
+}
+
+.card .btn {
+	width: 100% !important;
+}
+
+.produit {
+	padding: 4rem 0rem;
+}
+
+.descproduit {
+	width: 90%;
+}
+
+.descproduit h5 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.price {
+	font-weight: bold !important;
+}
+
+.buytemplate h5 {
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.templateoptions {
+	display: block !important;
+	margin: 0 auto !important;
+	text-align: center !important;
+}
+
+.optiontemplate {
+	color: black !important;
+	display: block !important;
+	margin: 0 auto !important;
+	margin-bottom: 15px !important;
+	margin-top: 15px !important;
+}
+
+.demo {
+	position: absolute;
+	right: 15px;
+	bottom: -50px;
+	padding: 10px 50px;
+	border: 2px solid #6d93aa;
+	border-radius: 4px;
+	color: #6d93aa;
+}

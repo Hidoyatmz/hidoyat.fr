@@ -1,0 +1,131 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.main-store {
+	padding: 50px;
+	background: #6d93aa !important;
+	color: white;
+	line-height: 1.9 !important;
+	text-align: center !important;
+}
+
+.card-premium-3 {
+	border-radius: 6px;
+	padding: 15px 10px;
+	width: 100%;
+	background: rgba(69,104,215,1);
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.card-premium-3 h1 {
+	margin-top: 25px;
+	color: white;
+}
+
+.card-premium-3 span {
+	color: white;
+	font-weight: bold;
+}
+
+.hidden {
+	display: none;
+}
+
+.infocard {
+	background: #ff5656;
+	padding: 5px;
+	position: absolute;
+	width: 200px;
+	top: 12;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	border-radius: 4px;
+	-moz-box-shadow: 0px 0px 5px 0px rgb(0,0,0,0.3);
+	-webkit-box-shadow: 0px 0px 5px 0px rgb(0,0,0,0.3);
+	-o-box-shadow: 0px 0px 5px 0px rgb(0,0,0,0.3);
+	box-shadow: 0px 0px 5px 0px rgb(0,0,0,0.3);
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=rgb(0,0,0,0.3), Direction=NaN, Strength=5);
+}
+
+select {
+  font: 400 12px/1.3 sans-serif;
+  -webkit-appearance: none;
+  appearance: none;
+  color: var(--baseFg);
+  border: 1px solid var(--baseFg);
+  line-height: 1;
+  outline: none;
+  background: none;
+  color: white;
+  overflow: hidden;
+}
+
+select:active {
+	overflow: hidden;
+	border: none;
+	outline: none;
+	color: white;
+}
+
+.card-premium-3 ul {
+	list-style: none;
+	text-align: left !important;
+	color: black;
+}
+
+.card-premium-3 ul span {
+	margin-top: 4px;
+	position: relative;
+	color: black;
+	float: right;
+}
+
+.card-premium-3 li {
+	padding: 5px 20px;
+	background: rgb(255,255,255,0.8);
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  	.card-premium-3 li {
+		font-size: 13px !important;
+	}
+}
+
+.card-premium-3 li:first-child {
+	margin-top: 30px;
+}
+
+.card-premium-3 li:last-child {
+	margin-bottom: 30px;
+}
+
+.card-premium-3 li:nth-child(2n) {
+  background-color: #705891;
+  color: white;
+}
+
+.card-premium-3 button {
+	color: white;
+	background: rgb(0,0,0,0.5);
+	padding: 5px 15px;
+	border: none;
+	width: 200px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+}
+
+.fa-check {
+	color: green !important;
+}
+
+.fa-times {
+	margin-top: 3px !important;
+}

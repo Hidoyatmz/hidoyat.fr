@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #232224;
+    color: #808080;
+    font-family: 'Nunito', sans-serif;
+}
+
+.bg-transparent {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+@media (min-width: 1200px) {
+    .navbar .container {
+        max-width: 900px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar .container {
+        max-width: 880px;
+    }
+}
+
+.navbar {
+    top: 10px;
+    font-size: 18px;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
+}
+
+
+/* .navbar:after {
+    content: ' ';
+    text-align: center;
+    border-bottom: solid #808080 1px;
+    width: 47%;
+    margin-top: 3%;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+} */
+
+.nav-item {
+    margin-left: 15px;
+}
+
+.special {
+    background: #BF263C;
+    border-radius: 4%;
+}
+
+.header {
+    height: 600px;
+    background: none;
+    position: relative;
+}
+
+.header-img {
+    position: absolute;
+    width: 500px;
+    left: 15%;
+    bottom: 5%;
+    z-index: 0;
+}
+
+.header-text {
+    position: absolute;
+    top: 35%;
+    right: 25%;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #B3B3B3;
+    z-index: 999;
+}
+
+@media (max-width: 1080px) {
+    .header-img {
+        display: none;
+    }
+    .header-text {
+        position: static;
+        display: block;
+        text-align: center;
+        margin-top: 75px;
+    }
+}
+
+.header-text span {
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 32px;
+}
+
+.header-socials {
+    height: 250px;
+    width: 60px;
+    position: absolute;
+    bottom: 5%;
+    left: 1%;
+    background: #3C3B3D;
+    border-radius: 8px;
+}
+
+.socials-icon {
+    height: 25%;
+    position: relative;
+    border-radius: 8px;
+}
+
+.socials-icon i {
+    position: relative;
+    top: 32%;
+    left: 27%;
+    font-size: 28px;
+    color: #B3B3B3;
+}
+
+@media (max-width: 1080px) {
+    .header-socials {
+        width: 250px;
+        height: 60px;
+        position: static;
+        display: block;
+        margin: 0 auto;
+        bottom: 5%;
+        background: #3C3B3D;
+        border-radius: 8px;
+    }
+    .socials-icon {
+        height: 100%;
+        width: 23%;
+        position: relative;
+        border-radius: 8px;
+        display: inline-block;
+    }
+    .socials-icon i {
+        position: relative;
+        top: 27%;
+        left: 27%;
+        font-size: 28px;
+        color: #B3B3B3;
+    }
+}
+
+.about {
+    margin-top: 100px;
+    position: relative;
+}
+
+.about-title {
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 32px;
+}
+
+.about .realisations {
+    margin-top: 50px;
+}
+
+.about .realisations img {
+    width: 100%;
+}
+
+.col-md-4 {
+    margin-top: 10px;
+}
+
+.about .competences .competence-card {
+    color: white;
+    border-radius: 8px;
+}
+
+.about .competences .competence-card .competence-title {
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about .competences .competence-card .competence-image {
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}

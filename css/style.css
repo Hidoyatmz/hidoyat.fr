@@ -1,14 +1,15 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@300&display=swap');
 html {
     scroll-behavior: smooth;
 }
 
 :root {
-    --primary-color: #303030;
-    --main-color: #4d4d4d;
-    --secondary-color: #6b6b6b;
-    --purple-color: #930cad;
+    --primary-color: #3C3B3D;
+    --main-color: #323133;
+    --secondary-color: #3C3B3D;
+    --purple-color: #6A50A7;
 }
 
 body {
@@ -85,7 +86,6 @@ a:focus {
 
 #sidebar ul li a:hover {
     color: black;
-    /*background: #6b6b6b;*/
     transform: scale(1.2);
 }
 
@@ -135,27 +135,27 @@ a:active {
 }
 
 #homepage h1 {
-    font-family: 'Big Shoulders Display', cursive;
     font-size: 5em;
     color: white;
+    font-family: 'Nunito', sans-serif;
 }
 
 #homepage h1 a {
-    font-family: 'Big Shoulders Display', cursive;
     font-style: italic;
     font-size: 0.7em;
-    color: #930cad;
+    color: var(--purple-color);
 }
 
 #homepage p {
     margin-top: 15px;
     color: white;
+    font-size: 1.3em;
 }
 
 #homepage .me {
     position: absolute;
     text-align: center;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translateX(-40%) translateY(-50%);
 }
@@ -313,6 +313,7 @@ a:active {
     position: relative;
     padding: 0px 50px 0px 0px;
     text-align: justify;
+    font-size: 1.1em;
 }
 
 .purplediv .col-md-6 .purplediv-text:after {
@@ -458,6 +459,14 @@ p {
 
 
 /* [CONTAINER] */
+
+.container h2,
+.container-fluid h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
 
 
 /* More accurate sizing */
