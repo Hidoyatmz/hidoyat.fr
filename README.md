@@ -1,2 +1,0 @@
-# hidoyat.fr
- My website.
