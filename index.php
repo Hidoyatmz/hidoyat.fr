@@ -7,12 +7,8 @@ error_reporting(E_ALL);
 require 'src/Database.php';
 require 'src/Timeline.php';
 require 'src/Project.php';
-require 'src/Poll.php';
-require 'src/functions/getUserIP.php';
+
 $pdoIntance = Database::getPdo();
-if(isset($_POST['colors'])){
-    Poll::sendPoll($pdoIntance, [getUserIp(), $_POST['colors'],$_POST['anims'],$_POST['texts'],$_POST['add']]);
-}
 ?>
 
 <head>
@@ -186,64 +182,10 @@ if(isset($_POST['colors'])){
         </div>
     </section>
     <!-- Start pool -->
-    <section class="pool" id="poll-popup">
-        <div>
-            <h3 class="translate" translate="intro-poll"></h3>
-            <h4 class="translate" translate="desc-poll"></h4>
-            <form method="post">
-                <div>
-                    <label for="select-colors" class="translate" translate="colors-poll">Les couleurs: </label>
-                    <select name="colors" id="select-colors">
-                        <?php
-                            for ($i=1; $i <= 5 ; $i++) {
-                                echo "<option value='" . $i . "'>". $i ."</option>";
-                            }
-                        ?>
-                    </select>
-                </div>
-                <div>
-                    <label for="select-anims" class="translate" translate="anims-poll">Les animations: </label>
-                    <select name="anims" id="select-anims">
-                        <?php
-                            for ($i=1; $i <= 5 ; $i++) {
-                                echo "<option value='" . $i . "'>". $i ."</option>";
-                            }
-                        ?>
-                    </select>
-                </div>
-                <div>
-                    <label for="select-texts" class="translate" translate="texts-poll">Les textes: </label>
-                    <select name="texts" id="select-texts">
-                        <?php
-                            for ($i=1; $i <= 5 ; $i++) {
-                                echo "<option value='" . $i . "'>". $i ."</option>";
-                            }
-                        ?>
-                    </select>
-                </div>
-                <div>
-                    <p class="translate" translate="toadd-poll"></p>
-                    <div>
-                        <textarea name="add" id="add" cols="50" rows="5"></textarea>
-                    </div>
-                </div>
-                <div>
-                    <input type="submit" name="poll" class="btn btn-success translate" translate="submit">
-                    <p class="btn btn-secondary m-0 ms-4 translate" onclick="dismissPoll()" translate="no-poll"></p>
-                </div>
-            </form>
-        </div>
-    </section>
     <!-- end pool -->
     <script src="js/navbar.js" defer></script>
     <script src="js/translate.js" defer></script>
     <script src="js/theme.js" defer></script>
-    <script>
-        function dismissPoll() {
-            let popup = document.getElementById("poll-popup");
-            popup.style.display = "none";
-        }
-    </script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/swiper-register.js" defer></script>
