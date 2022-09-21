@@ -1,0 +1,38 @@
+.navbar-container {
+    border-bottom: 2px solid var(--secondary);
+}
+
+.nav-link {
+    position: relative;
+    color: var(--light);
+    margin: 0px 10px;
+    transition: all .5s;
+    text-transform: uppercase;
+}
+
+.text-hover-select {
+    position: relative;
+}
+
+.text-hover-select::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 25%;
+    width: 0;
+    height: 20%;
+    background-color: var(--primary-opacity);
+    transition: all .5s;
+}
+
+.text-hover-select:hover::before{
+    width: 100%;
+}
+
+.nav-link i {
+    width: 18px;
+}
+
+.nav-link:hover {
+    color: white;
+}

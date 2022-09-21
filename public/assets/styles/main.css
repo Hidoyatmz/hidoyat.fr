@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+
+/* Works on Firefox */
+* {
+    scrollbar-color: var(--light) var(--secondary);
+}
+  
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+  
+*::-webkit-scrollbar-track {
+    background: var(--light);
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: var(--secondary);
+    border-radius: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: var(--light);
+    background-color: var(--secondary);
+}
+
+:root{
+    --primary: #5396e7;
+    --secondary: #202347;
+    --success: #2ecc71;
+    --danger: #A6333F;
+    --warning: #c27c0e;
+    --info: #206694;
+    --light: #d4dcff;
+    --text-light: #8491c7;
+    --dark: #171933;
+    --primary-opacity: rgba(83, 150, 231, 0.2);
+}
+
+.g-1 {
+    gap: 4px;
+}
+
+.g-2 {
+    gap: 8px;
+}
+
+.g-3 {
+    gap: 16px;
+}
+
+.g-4 {
+    gap: 32px;
+}
+
+.g-5 {
+    gap: 64px;
+}
+
+.text-muted {
+    color: var(--text-light) !important;
+}
