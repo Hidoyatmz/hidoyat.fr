@@ -4,6 +4,7 @@
 {% block stylesheets %}
     <link href="{{ asset('assets/styles/home.css') }}" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 {% endblock %}
 {% block body %}
     {{ include('app/components/navbar.html.twig') }}
@@ -13,45 +14,64 @@
                 <div class="col-lg-6 pb-3">
                     <img class="welcome-image mx-auto d-block img-fluid" src="{{ asset('assets/images/programming.svg') }}" alt="programming image" loading="lazy" width="500" height="300">
                 </div>
-                <div class="col-lg-6 pt-3">
-                    <h1 class="fw-bold">👋 Je suis Hido, un <span class="text-primary">étudiant & passioné</span> de programmation 😀</h1>
-                    <p class="lh-base py-2 fs-5 fw-light text-justify">Actuellement étudiant en BUT Informatique à l'IUT de Villeneuve d'Ascq, j'ai commencé à programmer à mes 9 ans au travers de jeux vidéo comme Minecraft ou Garry's Mod.
-                    <br>Ce qui était au début une passion en est maintenant mon avenir.</p>
+                <div class="col-lg-6 pt-3 text-center text-sm-start">
+                    <h2 class="fw-bold">👋 Je suis Mehdi Zaidi, un <span class="text-primary">étudiant & passionné</span> de programmation 😀</h2>
+                    <p class="lh-base py-3 fs-5 fw-light text-justify">Actuellement étudiant en BUT Informatique à l'IUT de Villeneuve d'Ascq, j'ai commencé à programmer à mes 9 ans au travers des jeux vidéo.
+                    <br>Ce qui était d'abord une passion est maintenant mon futur.</p>
                     <a href="#skills" class="btn btn-primary text-light btn-lg welcome-btn">En apprendre plus 👀</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="container bg-secondary">
+    <section id="skills" class="container bg-secondary">
         <div class="section-title">
-            <small>Ce que je fais</small>
-            <h3 id="skills"><i class="fa-solid fa-cube"></i> Mes compétences</h3>
+            <small>Ce que je sais</small>
+            <h3><i class="fa-solid fa-cube"></i> Mes compétences</h3>
         </div>
         <div class="skills-cards row pt-3 justify-content-between">
             <div class="col-lg-4">
                 <div class="skill-card">
                     <h3 class="skill-title">Web backend</h3>
-                    <p class="skill-text">Je créé des applications web en PHP ou en Java. Je maîtrise le framework Symfony et apprend actuellement Laravel.</p>
+                    <p class="skill-text">Je crée des applications web en PHP ou en Java (Spring).<br>Je maîtrise le framework Symfony et apprends actuellement Laravel.</p>
                     <span class="skill-icons"><i class="devicon-symfony-original"></i> <i class="devicon-php-plain colored"></i>  <i class="fa-brands fa-laravel"></i>  <i class="devicon-java-plain colored"></i>  <i class="devicon-mysql-plain colored"></i>  <i class="devicon-postgresql-plain colored"></i></span>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="skill-card">
                     <h3 class="skill-title">Web frontend</h3>
-                    <p class="skill-text">Je sais intégrer des maquettes graphiques en HTML, CSS et Javascript pur. J'apprend actuellement le framework VueJS.</p>
+                    <p class="skill-text">Je sais intégrer des maquettes graphiques en HTML, CSS et Javascript pur.<br>J'apprends actuellement le framework VueJS.</p>
                     <span class="skill-icons"><i class="devicon-html5-plain colored"></i> <i class="devicon-css3-plain colored"></i> <i class="devicon-javascript-plain colored"></i> <i class="devicon-vuejs-plain colored"></i></span>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="skill-card">
                     <h3 class="skill-title">Software engineering</h3>
-                    <p class="skill-text">Je peux créer des applications completes en Java, du design jusqu'à la conception. Je maîtrise la librairie JavaFX pour le partie graphique.</p>
+                    <p class="skill-text">Je peux concevoir et développer des applications en Java.<br>Je maîtrise les librairies JavaFX & MaterialFX pour la partie graphique.</p>
                     <span class="skill-icons"><i class="devicon-java-plain colored"></i> <i class="devicon-c-plain colored"></i></span>
                 </div>
             </div>
         </div>
     </section>
-    <section class="bg-dark p-4 d-flex justify-content-center align-items-center">
-        <h3>(Suite en construction...)</h3>
+    <section id="projects" class="bg-dark p-4 projects">
+        <div class="container">
+            <div class="section-title py-5">
+                <small>Ce que j'ai fais</small>
+                <h3><i class="fa-solid fa-briefcase"></i> Mes projets</h3>
+            </div>
+            <div class="swiper swiper-projects">
+                <div class="swiper-wrapper" id="timeline-wrapper">
+                    {% for project in projects %}
+                        {{ project.card | raw }}
+                    {% endfor %}
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="pt-2 d-flex justify-content-center align-items-center">
+                <a href="https://github.com/Hidoyatmz" target="_blank" class="btn btn-dark btn-lg px-4 me-md-2"><i class="fa-brands fa-github"></i> Retrouvez tous mes projets</a>
+            </div>
+        </div>
     </section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+<script src="assets/javascript/swiper-register.js" defer></script>
 {% endblock %}

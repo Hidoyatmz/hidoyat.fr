@@ -65,3 +65,16 @@ body {
 .text-muted {
     color: var(--text-light) !important;
 }
+
+.btn-outline-secondary {
+    color: var(--text-light) !important;
+    --bs-btn-color: var(--text-light) !important;
+}
+
+.swiper-pagination-bullet {
+    background: var(--primary);
+}
+
+.devicon-bash-plain,.devicon-lua-plain,.devicon-symfony-plain {
+    color: inherit !important;
+}
