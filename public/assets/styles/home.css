@@ -13,7 +13,7 @@
 
 
 section {
-    padding: 64px 0px;
+    padding: 128px 0px;
 }
 
 .skill-card {
@@ -25,6 +25,10 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.skill-text {
+    text-align: justify;
 }
 
 .skill-title {
@@ -61,6 +65,10 @@ section {
 .section-title small {
     color: var(--text-light) !important;
     text-transform: uppercase;
+}
+
+.projects {
+    padding-bottom: 100px !important;
 }
 
 .projects .card {
@@ -132,4 +140,70 @@ section {
 
 .projects .swiper {
     padding-bottom: 70px;
+}
+
+.bg-custom {
+    background: #3c4185;
+    color: var(--light);
+}
+
+.contact {
+    width: 100%;
+    bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 29px 0px;
+    position: absolute;
+}
+
+.contact-container {
+    padding: 50px 0px 100px 0px;
+}
+
+@media screen and (max-width: 900px) {
+    .contact {
+        position: relative;
+        border-radius: 0px !important;
+    }
+    .contact-container {
+        padding: 0px;
+    }
+    .contact .col-md-4 {
+        margin: 10px 0px;
+    }
+}
+
+.contact a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-card-container {
+    border-radius: 8px;
+    border: 1px solid var(--secondary);
+    padding: 20px;
+    position: relative;
+    transition: .5s;
+}
+
+.contact-card-container:hover {
+    background: var(--secondary);
+}
+
+.contact-card-container:hover small {
+    color: var(--text-light);
+}
+
+.contact-card-container p {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.contact-card-container small {
+    color: var(--dark);
+}
+
+.contact-card-container i {
+    position: absolute;
+    right: 20px;
+    bottom: 18px;
+    font-size: 64px;
 }

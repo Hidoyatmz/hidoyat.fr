@@ -133,7 +133,7 @@ class Project
                     </div>
                     <div class="card-body position-relative">
                         <h4 class="card-title fw-bold">{$this->getName()}</h4>
-                        <p class="card-text">{$this->getShortDesc()}</p>
+                        <p class="card-text text-justify">{$this->getShortDesc()}</p>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center">
                         <div class="d-flex align-items-center">

@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 {% endblock %}
 {% block body %}
-    {{ include('app/components/navbar.html.twig') }}
     <section class="welcome-section bg-dark text-light">
         <div class="container py-5">
             <div class="row flex-md-row-reverse py-5">
@@ -39,8 +38,8 @@
             <div class="col-lg-4">
                 <div class="skill-card">
                     <h3 class="skill-title">Web frontend</h3>
-                    <p class="skill-text">Je sais intégrer des maquettes graphiques en HTML, CSS et Javascript pur.<br>J'apprends actuellement le framework VueJS.</p>
-                    <span class="skill-icons"><i class="devicon-html5-plain colored"></i> <i class="devicon-css3-plain colored"></i> <i class="devicon-javascript-plain colored"></i> <i class="devicon-vuejs-plain colored"></i></span>
+                    <p class="skill-text">Je sais intégrer des maquettes graphiques en HTML, CSS et Javascript pur.<br>J'apprends actuellement les frameworks VueJS et ReactJS.</p>
+                    <span class="skill-icons"><i class="devicon-html5-plain colored"></i> <i class="devicon-css3-plain colored"></i> <i class="devicon-javascript-plain colored"></i> <i class="devicon-vuejs-plain colored"></i> <i class="devicon-react-original colored"></i></span>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -53,7 +52,7 @@
         </div>
     </section>
     <section id="projects" class="bg-dark p-4 projects">
-        <div class="container">
+        <div class="container pb-5">
             <div class="section-title py-5">
                 <small>Ce que j'ai fais</small>
                 <h3><i class="fa-solid fa-briefcase"></i> Mes projets</h3>
@@ -66,12 +65,45 @@
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
-            <div class="pt-2 d-flex justify-content-center align-items-center">
+            <!--<div class="pt-2 pb-5 d-flex justify-content-center align-items-center">
                 <a href="https://github.com/Hidoyatmz" target="_blank" class="btn btn-dark btn-lg px-4 me-md-2"><i class="fa-brands fa-github"></i> Retrouvez tous mes projets</a>
-            </div>
+            </div>-->
         </div>
     </section>
-
+    <div id="contact" class="container contact-container d-flex justify-content-center align-items-center position-relative">
+        <div class="contact bg-custom p-5 rounded">
+            <h3 class="mb-3"><i class="fa-solid fa-paper-plane"></i> Me contacter</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://github.com/Hidoyatmz" target="_blank">
+                        <div class="contact-card-container">
+                            <p>Github</p>
+                            <small>github.com/hidoyatmz</small>
+                            <i class="devicon-github-original"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.linkedin.com/in/29mehdi/" target="_blank">
+                        <div class="contact-card-container">
+                            <p>Linkedin</p>
+                            <small>linkedin.com/in/29mehdi</small>
+                            <i class="devicon-linkedin-plain"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://discordapp.com/users/559407472759275540" target="_blank">
+                        <div class="contact-card-container">
+                            <p>Discord</p>
+                            <small>Hido#1999</small>
+                            <i class="fa-brands fa-discord"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
 <script src="assets/javascript/swiper-register.js" defer></script>
 {% endblock %}
